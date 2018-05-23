@@ -43,6 +43,7 @@ class ApplicationController < Sinatra::Base
     @post.update(params[:name])
     @post.update(params[:content])
 
+    erb :show
   end
 
 
